@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+  big-vue:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes: 
+      - /home/suriya/Documents/airpax-big-vue/src
+      - .:/usr/app
